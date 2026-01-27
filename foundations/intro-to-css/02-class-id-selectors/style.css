@@ -1,1 +1,8 @@
 /* Add CSS Styling */
+p{background-color: pink;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#one {color: blue;
+    font-size: 32px;}
+#four {background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;}
