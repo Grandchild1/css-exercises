@@ -1,0 +1,4 @@
+build/
+pebble-logs.txt
+.pebble-logs.pid
+.lock-waf_*

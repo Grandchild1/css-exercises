@@ -1,0 +1,36 @@
+{
+  "name": "tally-drink-counter",
+  "author": "grandchild1",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Tally",
+    "uuid": "f42771d1-3ab2-4e18-b496-3114204a0069",
+    "sdkVersion": "3",
+    "targetPlatforms": ["emery"],
+    "watchapp": {
+      "watchface": false
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "LABEL_1D",
+          "file": "images/label_1d.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "LABEL_7D",
+          "file": "images/label_7d.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "LABEL_30D",
+          "file": "images/label_30d.png"
+        }
+      ]
+    }
+  }
+}
